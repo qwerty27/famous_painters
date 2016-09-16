@@ -1,0 +1,124 @@
+{
+  "famousPainters": [
+    {
+      "name": "Michelangelo",
+      "style": "Renaissance",
+      "birthplace": "Toscana",
+      "nationality": "Italy",
+      "birthdate": "03/06/1475",
+      "examples": [
+        {
+          "name": "David",
+          "year": "1501-1504",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/%27David%27_by_Michelangelo_JBU0001.JPG"
+        },
+        {
+          "name": "Sistine Chapel",
+          "year": "1483",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Chapelle_sixtine2.jpg"
+        },
+        {
+          "name": "The Last Judgement",
+          "year": "1536–1541",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Last_Judgement_%28Michelangelo%29.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Raphael",
+      "style": "Renaissance",
+      "birthplace": "Urbino",
+      "nationality": "Italy",
+      "birthdate": "03/28/1483",
+      "examples": [
+        {
+          "name": "School at Athens",
+          "year": "1501-1504",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Sanzio_01.jpg"
+        },
+        {
+          "name": "Lucretia",
+          "year": "1483",
+          "url": "http://www.metmuseum.org/toah/images/hb/hb_1997.153.jpg"
+        },
+        {
+          "name": "Saint George and the Dragon",
+          "year": "1536–1541",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Mattia_Preti_-_St._George_Victorious_over_the_Dragon_-_WGA18398.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Vincent van Gogh",
+      "style": "Post-Impressionist",
+      "birthplace": "Zundert",
+      "nationality": "Netherlands",
+      "birthdate": "03/30/1853",
+      "examples": [
+        {
+          "name": "Self-portrait",
+          "year": "1501-1504",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Vincent_Willem_van_Gogh_102.jpg"
+        },
+        {
+          "name": "The Starry Night",
+          "year": "1483",
+          "url": "http://www.moma.org/media/W1siZiIsIjEzMzA3NSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEzNjZ4MTM2Nlx1MDAzZSJdXQ.jpg?sha=6fcb9f7dd1f3d8bc"
+        },
+        {
+          "name": "The Yellow House",
+          "year": "1536–1541",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Vincent_van_Gogh_-_The_yellow_house_%28%27The_street%27%29.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Claude Monet",
+      "style": "Impressionist",
+      "birthplace": "Paris",
+      "nationality": "France",
+      "birthdate": "11/14/1840",
+      "examples": [
+        {
+          "name": "Morning on the Seine",
+          "year": "1501-1504",
+          "url": "http://images.metmuseum.org/CRDImages/ep/original/DT1903.jpg"
+        },
+        {
+          "name": "The Woman in the Green Dress",
+          "year": "1483",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Claude_Monet_-_Camille.JPG"
+        },
+        {
+          "name": "Sunrise",
+          "year": "1536–1541",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Claude_Monet%2C_Impression%2C_soleil_levant.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Johannes Vermeer",
+      "style": "Baroque",
+      "birthplace": "Delft",
+      "nationality": "Dutch Republic",
+      "birthdate": "10/31/1632",
+      "examples": [
+        {
+          "name": "The Milkmaid",
+          "year": "1501-1504",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Vermeer_-_The_Milkmaid.jpg"
+        },
+        {
+          "name": "Girl with a Pearl Earring",
+          "year": "1483",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Meisje_met_de_parel.jpg"
+        },
+        {
+          "name": "The Music Lesson",
+          "year": "1536–1541",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Jan_Vermeer_van_Delft_014.jpg"
+        }
+      ]
+    }
+  ]
+}
