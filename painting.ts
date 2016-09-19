@@ -49,3 +49,4 @@ class Painting implements IPainting {
         return html;
     }
 }
+//# sourceMappingURL=js/compiled/typescript/painting.js.map

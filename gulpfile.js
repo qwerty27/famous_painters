@@ -2,6 +2,7 @@
 
 var gulp = require('gulp'),
 ts = require('gulp-typescript'),
+sourcemaps = require('gulp-sourcemaps'),
 uglify = require('gulp-uglify'),
 concat = require('gulp-concat'),
 plumber = require('gulp-plumber'),
@@ -19,6 +20,7 @@ gulp.task('compressScripts', function () {
 
 gulp.task('typescript', function () {
     var tsResult = gulp.src(tsPath)
+    .pipe(sourcemaps.init())
     .pipe(ts({
         target: 'ES5',
         declarationFiles: false,
@@ -26,7 +28,9 @@ gulp.task('typescript', function () {
     }));
 
     tsResult.dts.pipe(gulp.dest(compilePath + '/tsdefinitions'));
-    return tsResult.js.pipe(gulp.dest(compilePath + '/typescript'));
+    return tsResult.js
+    .pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest(compilePath + '/typescript'));
 });
 
 gulp.task('watch', function () {

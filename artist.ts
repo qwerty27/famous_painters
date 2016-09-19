@@ -81,3 +81,4 @@ class Artist implements IArtist {
         artistInformation.value = 'Unable to load data!';
     }
 }
+//# sourceMappingURL=js/compiled/typescript/artist.js.map
